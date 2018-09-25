@@ -83,6 +83,6 @@ ddr_file_name <- function (date, asset_class) {
 }
 
 ddr_url <- function (date, asset_class) {
-  stump <- "https://kgc0418-tdw-data2-0.s3.amazonaws.com/slices/"
+  stump <- "https://kgc0418-tdw-data-0.s3.amazonaws.com/slices/"
   paste0(stump, ddr_file_name(date, asset_class), ".zip")
 }
